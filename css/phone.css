@@ -1,0 +1,259 @@
+/*Navigation*/
+#navbar{
+    flex-direction: column;
+}
+/*Home Section*/
+#home::before{
+    height: 670px;
+}
+#home{
+    height: 500px;
+    margin-bottom:100px;
+    padding: 3px 100px
+}
+
+/*services*/
+#services{
+    
+    flex-direction: column;
+}
+#services .box{
+
+}
+
+/*product used*/
+#clients{
+    flex-direction: column;
+}
+#product-used::before{
+    height: 1128px;
+}
+
+#client-item-1 img{
+    height: 160px;
+    padding: 5px 10px;
+}
+#client-item-2 img{
+    height: 50px;
+    padding: 5px 10px;
+}
+#client-item-3 img{
+    height: 60px;
+    padding: 5px 10px;
+}
+#client-item-4 img{
+    height: 60px;
+    padding: 5px 10px;
+}
+#client-item-5 img{
+    height: 150px;
+    padding: 5px 10px;
+}
+#client-item-6 img{
+    height: 115px;
+    padding: 5px 10px;
+}
+#client-item-7 img{
+    height: 32px;
+    padding: 5px 10px;
+}
+#client-item-8 img{
+    height: 90px;
+    padding: 5px 10px;
+}
+#client-item-9 img{
+    height: 65px;
+    padding: 5px 10px;
+}
+
+#client-item-10 img{
+    height: 100px;
+    padding: 5px 10px;
+}
+
+/*contact us*/
+#contact-box form {
+    width: 60%;
+}
+/*footer*/
+
+/*if screen height is less then 800*/
+@media only screen and (max-width:799px){
+    #navbar ul li a{
+        font-size: 1.5rem;
+        padding: 0px 10px;
+    }
+    #home h1{
+        font-size: 2.4rem;
+    }
+    #home p{
+        font-size: 1.3rem;
+    }
+}
+
+/*if screen height is less then 720*/
+
+@media only screen and (max-width:719px){
+    
+    
+    
+    #home h1{
+        font-size: 2.3rem;
+    }
+    #home p{
+        font-size: 1.2rem;
+    }
+    #home {
+        padding: 3px 80px;
+    }
+}
+/*if screen height is less then 690*/
+@media only screen and (max-width:689px){
+    
+    
+    
+    #home h1{
+        font-size: 2.1rem;
+    }
+    #home p{
+        font-size: 1.1rem;
+    }
+    #home {
+        padding: 3px 70px;
+    }
+}
+
+/*if screen height is less then 630*/
+/*
+@media only screen and (max-width:629px){
+    
+   
+    
+    #home h1{
+        font-size: 2.0rem;
+    }
+    #home p{
+        font-size: 1.0rem;
+    }
+}
+*/
+/*if screen height is less then 590*/
+@media only screen and (max-width:629px){
+    
+    
+    
+    #home h1{
+        font-size: 2.0rem;
+    }
+    #home p{
+        font-size: 1.0rem;
+    }
+    .btn {
+        font-size: 1.0rem;
+    }
+}
+/*screen size is lees then 500*/
+
+@media only screen and (max-width:499px){
+   
+
+    #home::before{
+        height: 720px;
+    }
+
+    #home{
+        height: 500px;
+        margin-bottom:125px;
+        padding: 3px 20px;
+        
+    }
+
+    #navbar ul li a{
+        font-size: 1.2rem;
+        padding: 0px 8px;
+    }
+}
+
+
+/*screen size is lees then 440*/
+/*
+@media only screen and (max-width:439px){
+    body{
+        background-color: rgb(179, 255, 0);
+    }
+
+    #home{
+        overflow: hidden;
+        padding: 0px 0px ;
+    }
+    #navbar{
+        overflow: hidden;
+    }
+
+}
+/*
+
+/*screen size is lees then 320*/
+@media only screen and (max-width:319px){
+    #home::before{
+        height: 570px;
+    }
+
+    #home{
+        height: 350px;
+        
+    }
+    #home h1{
+        font-size: 1.9rem;
+    }
+    #home p{
+        font-size: 0.8rem;
+    }
+    .btn {
+        font-size: 0.8rem;
+    }
+    #navbar ul li a{
+        font-size: 0.9rem;
+        padding: 0px 6px;
+    }
+}
+
+/*screen size is lees then 260*/
+@media only screen and (max-width:258px){
+
+    #home h1{
+        font-size: 1.5rem;
+    }
+    #home p{
+        font-size: 0.7rem;
+    }
+    .btn {
+        font-size: 0.7rem;
+    }
+   #services{
+       overflow: hidden;
+
+   }
+   #clients{
+       overflow: hidden;
+   }
+   #home{
+       overflow: hidden;
+   }
+   #navbar ul li a{
+    font-size: 0.7rem;
+    padding: 0px 4px;
+}
+}
+/*screen size is lees then 180*/
+@media only screen and (max-width:180px){
+    .h-primary {
+        overflow: hidden;
+    }
+    #navbar{
+        overflow: hidden;
+    }
+    #contact-box label {
+        font-size: 0.1rem;
+    }
+}
